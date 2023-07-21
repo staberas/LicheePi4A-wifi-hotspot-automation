@@ -30,7 +30,7 @@ then
 fi
 
 # If both sets of pings fail, set up the access point
-nmcli dev wifi hotspot ifname wlan0 con-name LicheeRV-AI ssid LicheeRV-AI password WPAKAIWPA2
+nmcli dev wifi hotspot ifname wlan0 con-name LicheeRV-AI ssid LicheeRV-AI password mypassword
 EOF
 
 # Make the script executable
